@@ -70,8 +70,8 @@ The steps for this homework are divided into the following sections:
 
 3. Click the Deploy button to deploy your smart contract, and then confirm that it successfully deployed.
 
-![alt=“”](Images/Deployment.png)
-![alt=“”](Images/Deployment1.png)
+![alt=“”](Execution_Results/Deployment.png)
+![alt=“”](Execution_Results/Deployment1.png)
 
 #### Step 3: Interact with Your Deployed Smart Contract
 
@@ -88,23 +88,23 @@ To interact with your deployed smart contract, complete the following steps:
     > Dummy account2 address: 0x7A1f3dFAa0a4a19844B606CD6e91d693083B12c0
     > ```
 
-    ![alt=“”](Images/setAccounts_acc1_and_acc2.png)
+    ![alt=“”](Execution_Results/setAccounts_acc1_and_acc2.png)
 
 
 2. Test the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the `contractBalance` function to verify that the funds were added to your contract:
 
     * Transaction 1: Send 1 ether as wei.
-    ![alt=“”](deposit_1ETH.png)
+    ![alt=“”](Execution_Results/deposit_1ETH.png)
 
     * Transaction 2: Send 10 ether as wei.
-    ![alt=“”](deposit_10ETH.png)
+    ![alt=“”](Execution_Results/deposit_10ETH.png)
 
     * Transaction 3: Send 5 ether.
-    ![alt=“”](deposit_5ETH.png)
+    ![alt=“”](Execution_Results/deposit_5ETH.png)
 
     > **Note** Remembering how to convert ether to wei and vice versa can be challenging. So, you can use a website like [Ethereum Unit Converter](https://eth-converter.com/) to ease doing the conversion.
 
 3. Once you’ve successfully deposited funds into your contract, test the contract’s withdrawal functionality by withdrawing 5 ether into `accountOne` and 10 ether into `accountTwo`. After each transaction, use the `contractBalance` function to verify that the funds were withdrawn from your contract. Also, use the `lastToWithdraw` and `lastWithdrawAmount` functions to verify that the address and amount were correct.
-![alt=“”](5ETH_withdraw_from_contract_to_Acc1.png)
-![alt=“”](10ETH_withdraw_from_contract_to_Acc2.png)
+![alt=“”](Execution_Results/5ETH_withdraw_from_contract_to_Acc1.png)
+![alt=“”](Execution_Results/10ETH_withdraw_from_contract_to_Acc2.png)
 
