@@ -71,7 +71,7 @@ The steps for this homework are divided into the following sections:
 3. Click the Deploy button to deploy your smart contract, and then confirm that it successfully deployed.
 
 ![alt=“”](Execution_Results/Deployement.png)
-![alt=“”](Execution_Results/Deployement1.png)
+![alt=“”](Execution_Results/Deployement2.png)
 
 #### Step 3: Interact with Your Deployed Smart Contract
 
